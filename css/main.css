@@ -59,6 +59,11 @@ body {
   width: 7.3%;
 
   background-color: rgba(204, 204, 204, 0);
+    transition: background-color 500ms ease-in-out;
+}
+
+.chart__item:hover {
+    background-color: rgba(204, 204, 204, 0.8)
 }
 
 .chart__link,
